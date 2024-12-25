@@ -1,0 +1,123 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\t_thi\\Documents\\Hamsha\\Automation folder\\Playwright\\playwright-script\\playwright.config.js",
+    "rootDir": "C:/Users/t_thi/Documents/Hamsha/Automation folder/Playwright/playwright-script/toDoTest",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/t_thi/Documents/Hamsha/Automation folder/Playwright/playwright-script/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Chromium",
+        "name": "Chromium",
+        "testDir": "C:/Users/t_thi/Documents/Hamsha/Automation folder/Playwright/playwright-script/toDoTest",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.49.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "addItems.test.js",
+      "file": "addItems.test.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Add Todo Items",
+          "file": "addItems.test.js",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should add multiple todo items",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Chromium",
+                  "projectName": "Chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 3925,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "Items left: 6 items left!\n"
+                        },
+                        {
+                          "text": "Checkbox visibility for \"walk\": true\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-12-25T08:18:56.939Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a527db8f878df3cee118-ca7d58fc96e679b272b8",
+              "file": "addItems.test.js",
+              "line": 10,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-12-25T08:18:56.146Z",
+    "duration": 5073.907,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

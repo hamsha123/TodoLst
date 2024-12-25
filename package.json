@@ -1,0 +1,16 @@
+{
+  "name": "playwright-script",
+  "version": "1.49.1",
+  "main": "index.js",
+  "type": "module",
+   "scripts": {
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.49.1"
+   }
+}
